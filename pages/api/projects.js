@@ -1,3 +1,4 @@
+
 import data from './projects.json';
 
 let cachedProjects = null;
