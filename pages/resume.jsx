@@ -1,6 +1,5 @@
 import styles from '../styles/ContactPage.module.css';
 
-
 const ContactPage = () => {
   return (
     <div className={styles.container}>
@@ -8,50 +7,40 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Education History</h3>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>Developer Roadmap Experiment Lab</h4>
-          <div>Bukas Global Investments</div>
-          <div>2022 - Present</div>
+          <h4 className={styles.resumeHead}>BTech Student</h4>
+          <div>SRM UNIVERSITY</div>
+          <div>2023 - Present</div>
         </div>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>FULL-STACK WITH HTML, CSS, JAVASCRIPT, NODE, REACT, POSTGRESQL, WEB3 AND DAPPS</h4>
-          <div>Udemy INC. and Dr Angela Yu.</div>
-          <div>2022 - 2024</div>
+          <h4 className={styles.resumeHead}>WEB DEVELOPMENT, PYTHON, JAVA, C, C++</h4>
+          <div>Udemy INC. and Youtube</div>
+          <div>2021 - Present</div>
         </div>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>FULL STACK WEB DEVELOPMENT WITH REACT JS, ANGULAR AND NODEJS</h4>
-          <div>Udemy INC. and Oak Academy.</div>
-          <div>2022 - 2023</div>
-        </div>
-
-        <div className={styles.item}>
-          <h4 className={styles.resumeHead}>FRONTEND DEVELOPMENT WITH REACTJS, API INTEGRATION AND NODEJS</h4>
-          <div>Soutech Ventures, Owerri, Imo State, Nigeria.</div>
-          <div>2023</div>
-        </div>
-
-        <div className={styles.item}>
-          <h4 className={styles.resumeHead}>HTML, CSS, & JAVASCRIPT</h4>
-          <div>Coursera Online INC.</div>
+          <h4 className={styles.resumeHead}>Python and MySQL</h4>
+          <div>In School</div>
           <div>2021</div>
         </div>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>BSc. Industrial Microbiology</h4>
-          <div>Imo State University, Owerri.</div>
-          <div><strong>Year:</strong> 2016 - 2020</div>
+          <h4 className={styles.resumeHead}>Schooling from Kendriya Vidhyalaya</h4>
+          <div><strong>Year:</strong> 2011 - 2023 </div>
         </div>
-
       </div>
 
+      {/* Work Experience Section */}
       <div className={styles['work-section']}>
         <h3 className={styles.heading}>Professional Experience</h3>
+
+        {/* Uncomment this block to display work experience */}
+        {/*
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>Virtuous Tech Enterprise</h4>
           <div>Remote: Edo State, Nigeria</div>
           <div>Frontend Developer with React</div>
-          <div>2024 - Present </div>
+          <div>2024 - Present</div>
         </div>
 
         <div className={styles.item}>
@@ -81,6 +70,7 @@ const ContactPage = () => {
           <div>Laboratory Scientist Intern</div>
           <div>2019</div>
         </div>
+        */}
       </div>
     </div>
   );
