@@ -6,9 +6,9 @@ import TwitterIcon from './icons/TwitterIcon';
 import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
-import WhatsAppIcon from './icons/WhatsappIcon';
+//import WhatsAppIcon from './icons/WhatsappIcon';
 import FacebookIcon from './icons/FacebookIcon';
-import TikTokIcon from './icons/TiktokIcon';
+//import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
 
@@ -17,10 +17,10 @@ const sidebarTopItems = [
     Icon: FilesIcon,
     path: '/',
   },
-  {
+  {/*{
     Icon: WhatsAppIcon,
     path: 'https://wa.me/2348166983737',
-  },
+  }*/},
   {
     Icon: TwitterIcon,
     path: 'https://x.com/KunalBishwal18',
@@ -37,10 +37,10 @@ const sidebarTopItems = [
     Icon: LinkedInIcon,
     path: 'https://www.linkedin.com/in/kunal-bishwal-6a450525b',
   },
-  {
+  {/*{
     Icon: TikTokIcon,
     path: 'https://www.tiktok.com/@gozkybrain',
-  },
+  }*/},
   {
     Icon: MailIcon,
     path: 'mailto:kunalbishwal2004@gmail.com',
