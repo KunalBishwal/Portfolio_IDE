@@ -1,5 +1,5 @@
 [build]
-  command = "npx next build"
+  command = "npm next build"
   publish = "pages/.next"
 
 [[plugins]]
