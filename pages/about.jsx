@@ -43,7 +43,7 @@ export default function AboutMe() {
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>Aliases: </strong>
-                  CodeXKun</span>
+                  CODExKUN</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
