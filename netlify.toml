@@ -1,6 +1,7 @@
 [build]
-  command = "npm next build"
-  publish = "pages/.next"
+  command = "npx next build"
+  publish = ".next"
+
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
