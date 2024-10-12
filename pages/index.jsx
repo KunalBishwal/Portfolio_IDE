@@ -7,9 +7,8 @@ import Image from 'next/image';
 
 // FontAwesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faRust } from '@fortawesome/free-brands-svg-icons';
-// Importing MySQL and other necessary icons
-import { faPython, faJava, faPhp } from '@fortawesome/free-brands-svg-icons'; // Ensure the right icons are imported
+import { faReact, faJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
+import { faC, faCpp, faDatabase } from '@fortawesome/free-solid-svg-icons'; // Use appropriate icons
 
 export default function HomePage() {
   return (
@@ -54,19 +53,19 @@ export default function HomePage() {
 
               {/* Skill item for C */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faRust} size="3x" className={`${styling.icon} ${styling.cIcon}`} />
+                <FontAwesomeIcon icon={faC} size="3x" className={`${styling.icon} ${styling.cIcon}`} />
                 <div className={styling.skillText}>C</div>
               </div>
 
               {/* Skill item for C++ */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={['fab', 'cpp']} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
+                <FontAwesomeIcon icon={faCpp} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
                 <div className={styling.skillText}>C++</div>
               </div>
 
               {/* Skill item for MySQL */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faPhp} size="3x" className={`${styling.icon} ${styling.mysqlIcon}`} />
+                <FontAwesomeIcon icon={faDatabase} size="3x" className={`${styling.icon} ${styling.mysqlIcon}`} />
                 <div className={styling.skillText}>MySQL</div>
               </div>
             </div>
