@@ -21,24 +21,24 @@ export default function AboutMe() {
             />
           </div>
           <div className={`col-lg-9 pt-4 pt-lg-0 ${styles.content}`} data-aos="fade-left">
-            <h3>Mobile &amp; Web Developer.</h3>
+            <h3>BTech Student</h3>
             <div className={`row`}>
               <div className={`col-lg-6`}>
                 <ul className={styles.list}>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Name:</strong> 
-                    <span>Izuka Chigozie Emmanuel Brain</span>
+                    <span>Kunal Bishwal</span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Nationality:</strong> 
-                    <span>Nigeria 🇳🇬</span>
+                    <span>Indian IND</span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>College Degree:</strong> 
-                    <span>Industrial Microbiology</span>
+                    <span>Pursuing BTech from SRM University</span>
                   </li>
                 </ul>
               </div>
@@ -47,23 +47,23 @@ export default function AboutMe() {
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Aliases:</strong> 
-                    <span>Gozkybrain Izuka, Sarcastic Geek</span>
+                    <span>CODExKUN</span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Zodiac:</strong> 
-                    <span>Leo</span>
+                    <span>Gemini</span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Freelance:</strong> 
-                    <span>Available</span>
+                    <span>Not Available</span>
                   </li>
                 </ul>
               </div>
             </div>
             <p className={styles.paragraph}>
-              <strong className={styles.strong}>Note:</strong> I'm available to work Remote and Hybrid. I am also available to work physically and relocate regardless of location.
+              <strong className={styles.strong}>Note:</strong> I am learning Data Science and also had interest in Web development,so will be ready to freelance as WEB DEV
             </p>
           </div>
         </div>
