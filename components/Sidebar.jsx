@@ -6,9 +6,9 @@ import TwitterIcon from './icons/TwitterIcon';
 import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
-import WhatsAppIcon from './icons/WhatsappIcon';
+//import WhatsAppIcon from './icons/WhatsappIcon';
 import FacebookIcon from './icons/FacebookIcon';
-import TikTokIcon from './icons/TiktokIcon';
+//import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
 
@@ -17,17 +17,17 @@ const sidebarTopItems = [
     Icon: FilesIcon,
     path: '/',
   },
-  {
+  {/*{
     Icon: WhatsAppIcon,
     path: 'https://wa.me/2348166983737',
-  },
+  }*/},
   {
     Icon: TwitterIcon,
-    path: 'https://x.com/gozkybrain4u',
+    path: 'https://x.com/KunalBishwal18',
   },
   {
     Icon: GithubIcon,
-    path: '/github',
+    path: 'https://github.com/KunalBishwal',
   },
   {
     Icon: FacebookIcon,
@@ -35,15 +35,15 @@ const sidebarTopItems = [
   },
   {
     Icon: LinkedInIcon,
-    path: 'https://www.linkedin.com/in/gozkybrain-izuka-75612024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    path: 'https://www.linkedin.com/in/kunal-bishwal-6a450525b',
   },
-  {
+  {/*{
     Icon: TikTokIcon,
     path: 'https://www.tiktok.com/@gozkybrain',
-  },
+  }*/},
   {
     Icon: MailIcon,
-    path: 'mailto:gozkybrain@gmail.com',
+    path: 'mailto:kunalbishwal2004@gmail.com',
   },
 ];
 
