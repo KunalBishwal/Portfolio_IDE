@@ -20,9 +20,9 @@ export default function HomePage() {
         </div>
         <d    iv className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Sarcastic Geek</h1>
-            <h6 className={styles.bio}>Software Developer with
-              <span className={styles.react}> React.</span></h6>
+            <h1 className={styles.name}>CODExKUN</h1>
+            <h6 className={styles.bio}>Btech Student in
+              <span className={styles.react}> Data Science.</span></h6>
 
             {/* Skill Icons Section */}
             <div className={styling.skillsContainer}>
@@ -70,7 +70,7 @@ export default function HomePage() {
           {/* <Illustration className={styles.illustration} /> */}
           {/* Logo image */}
           <div className={styling.imageWrapper}>
-            <Image src={logo} alt="Sarcastic Geek Logo" className={styling.myImg} />
+            <Image src={logo} alt="Logo" className={styling.myImg} />
           </div>
         </d>
       </div>
