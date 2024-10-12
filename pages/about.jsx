@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div className={styles.imageContainer} data-aos="fade-right">
             <Image
               src={brain}
-              alt="About Me"
+              alt="About Me - Kunal Bishwal"
               width={150}
               height={150}
               priority
@@ -18,96 +18,111 @@ export default function AboutMe() {
             />
           </div>
           <div className={styles.textContainer} data-aos="fade-left">
-            <h3 className={styles.textHead}>Mobile App &amp; Web Developer</h3>
+            <h3 className={styles.textHead}>Btech Student</h3>
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>Name: </strong>
-                  Izuka Chigozie Emmanuel Brain</span>
+                  Kunal Bishwal</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Nationality: </strong>
-                  Nigeria 🇳🇬</span>
+                <span><strong className={styles.strong}>Nationality: </strong>
+                  Indian IND</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>College Degree: </strong>
-                  Industrial Microbiology</span>
+                  Pursuing Btech in CSE Data Science</span>
               </li>
             </ul>
           </div>
+
           <div className={styles.textContainer} data-aos="fade-left">
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Aliases: </strong>
-                  Gozkybrain Izuka, Sarcastic Geek, Gee Brain</span>
+                <span><strong className={styles.strong}>Aliases: </strong>
+                  CodeXKun</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Zodiac: </strong>
-                  Leo (27 July)</span>
+                <span><strong className={styles.strong}>Zodiac: </strong>
+                  Gemini</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Availability: </strong>
-                  Freelance, Remote, & Hybrid</span>
+                <span><strong className={styles.strong}>Availability: </strong>
+                  Learning Stage</span>
               </li>
             </ul>
           </div>
         </div>
+
         <div className={styles.paragraph}>
-          Innovative and deadline-driven Developer with 3+ years of experience researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible. I make the whole concept of developing, a whole vibe - A Normal Life is Boring.        </div>
+          I am a student at SRM University, pursuing a Btech degree in CSE Data Science (2nd Year) and also learning DSA and Web Dev as personal skills.
+        </div>
 
         {/* Skills Section */}
         <div className={styles.skillsSection}>
-        <h3 className={styles.textHead}>Skills</h3>
+          <h3 className={styles.textHead}>Skills</h3>
           <div className={styles.skillsGrid}>
             <div className={styles.skill}>
               <span className={styles.skillName}>JavaScript</span>
-              <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '89%' }}></div>
-              </div>
-            </div>
-            <div className={styles.skill}>
-              <span className={styles.skillName}>ReactJS, NextJS & React Native</span>
-              <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
-              </div>
-            </div>
-            <div className={styles.skill}>
-              <span className={styles.skillName}>CSS & Bootstrap</span>
-              <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '92%' }}></div>
-              </div>
-            </div>
-            <div className={styles.skill}>
-              <span className={styles.skillName}>MongoDB, ExpressJS & NodeJS</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '75%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Motoko, Solana Rust & Web3JS</span>
+              <span className={styles.skillName}>ReactJS, NextJS & React Native</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '60%' }}></div>
+                <div className={styles.progress} style={{ width: '40%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Wordpress</span>
+              <span className={styles.skillName}>CSS & Bootstrap</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '95%' }}></div>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>HTML</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>Java</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '80%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>C & C++</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>Python</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '70%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>MongoDB, ExpressJS & NodeJS</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '20%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Firebase, EmailJS, & MailJet</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: '20%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Git & Postman</span>
+              <span className={styles.skillName}>Git & GitHub</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
