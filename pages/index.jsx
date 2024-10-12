@@ -7,8 +7,9 @@ import Image from 'next/image';
 
 // FontAwesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faWordpress, faJs, faRust, faNode } from '@fortawesome/free-brands-svg-icons';
-
+import { faReact, faJs, faRust } from '@fortawesome/free-brands-svg-icons';
+// Importing MySQL and other necessary icons
+import { faPython, faJava, faPhp } from '@fortawesome/free-brands-svg-icons'; // Ensure the right icons are imported
 
 export default function HomePage() {
   return (
@@ -18,11 +19,12 @@ export default function HomePage() {
           <h1>I BUILD</h1>
           <h1>MAGIC!</h1>
         </div>
-        <d    iv className={styles.foreground}>
+        <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>CODExKUN</h1>
             <h6 className={styles.bio}>Btech Student in
-              <span className={styles.react}> Data Science.</span></h6>
+              <span className={styles.react}> Data Science.</span>
+            </h6>
 
             {/* Skill Icons Section */}
             <div className={styling.skillsContainer}>
@@ -32,47 +34,58 @@ export default function HomePage() {
                 <div className={styling.skillText}>React</div>
               </div>
 
-              {/* Skill item for WordPress */}
-              <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faWordpress} size="3x" className={`${styling.icon} ${styling.wordpressIcon}`} />
-                <div className={styling.skillText}>WordPress</div>
-              </div>
-
               {/* Skill item for JavaScript */}
               <div className={styling.skillItem}>
                 <FontAwesomeIcon icon={faJs} size="3x" className={`${styling.icon} ${styling.jsIcon}`} />
                 <div className={styling.skillText}>JavaScript</div>
               </div>
 
-              {/* Skill item for Solana Rust */}
+              {/* Skill item for Python */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faRust} size="3x" className={`${styling.icon} ${styling.rustIcon}`} />
-                <div className={styling.skillText}>Solana Rust</div>
+                <FontAwesomeIcon icon={faPython} size="3x" className={`${styling.icon} ${styling.pythonIcon}`} />
+                <div className={styling.skillText}>Python</div>
               </div>
 
-              {/* Skill item for Express.js */}
+              {/* Skill item for Java */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faNode} size="3x" className={`${styling.icon} ${styling.nodeIcon}`} />
-                <div className={styling.skillText}>Express.js</div>
+                <FontAwesomeIcon icon={faJava} size="3x" className={`${styling.icon} ${styling.javaIcon}`} />
+                <div className={styling.skillText}>Java</div>
+              </div>
+
+              {/* Skill item for C */}
+              <div className={styling.skillItem}>
+                <FontAwesomeIcon icon={faRust} size="3x" className={`${styling.icon} ${styling.cIcon}`} />
+                <div className={styling.skillText}>C</div>
+              </div>
+
+              {/* Skill item for C++ */}
+              <div className={styling.skillItem}>
+                <FontAwesomeIcon icon={['fab', 'cpp']} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
+                <div className={styling.skillText}>C++</div>
+              </div>
+
+              {/* Skill item for MySQL */}
+              <div className={styling.skillItem}>
+                <FontAwesomeIcon icon={faPhp} size="3x" className={`${styling.icon} ${styling.mysqlIcon}`} />
+                <div className={styling.skillText}>MySQL</div>
               </div>
             </div>
 
-
-           <div className={styling.forMobile}>
+            <div className={styling.forMobile}>
               <Link href="/projects">
-              <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
+                <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
               </Link>
               <Link href="/resume">
                 <button className={`${styles.outlined} ${styling.contactBtn}`}>My Resume</button>
               </Link>
-           </div>
+            </div>
           </div>
           {/* <Illustration className={styles.illustration} /> */}
           {/* Logo image */}
           <div className={styling.imageWrapper}>
             <Image src={logo} alt="Logo" className={styling.myImg} />
           </div>
-        </d>
+        </div>
       </div>
     </>
   );
