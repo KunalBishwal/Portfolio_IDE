@@ -8,3 +8,6 @@ module.exports = {
     unoptimized: true, // Disable image optimization
   },
 };
+module.exports = {
+  productionBrowserSourceMaps: true,
+};
