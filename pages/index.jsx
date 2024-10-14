@@ -20,7 +20,7 @@ export default function HomePage() {
             <h1 className={styles.name}>CODExKUN</h1>
             <h6 className={styles.bio}>
               Btech Student in
-              <span className={styles.react}>DataScience</span>
+              <span className={styles.react}> DataScience.</span>
             </h6>
 
             {/* Skill Icons Section */}
