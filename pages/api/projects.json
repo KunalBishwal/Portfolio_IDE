@@ -1,20 +1,3 @@
-// Commenting out the previous projects
-/*
-[
-  {
-    "id": 1,
-    "name": "Guessing Game (Lite)",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
-    "tags": ["css", "javascript", "html"],
-    "source_code": "https://github.com/Gozkybrain/My-Guessing-Game-Lite",
-    "demo": "https://gozkybrain.github.io/My-Guessing-Game-Lite"
-  },
-  // ... other projects
-]
-*/
-
-// New projects added
 [
   {
     "id": 1,
