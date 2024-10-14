@@ -1,9 +1,5 @@
-# Portfolio_IDE
-
 # Portfolio Website
-
-![Portfolio Logo](https://imgur.com/a/lu5ThbH)
-
+IN VSCODE STYLE
 ## Table of Contents
 - [Components]
 - [Pages]
