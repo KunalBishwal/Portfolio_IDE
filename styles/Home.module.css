@@ -28,9 +28,9 @@
 
 .skillItem {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center align icon and text vertically */
     text-align: center;
+    flex-direction: row; /* Align items in a row */
 }
 
 .skillItem p {
@@ -40,8 +40,9 @@
 }
 
 .icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+    font-size: 3rem; /* Keep a consistent size */
+    margin-right: 0.5rem; /* Space between icon and text */
+    display: flex; /* Ensure the icon can center align */
 }
 
 .reactIcon {
