@@ -96,6 +96,11 @@ export async function getStaticProps() {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
       },
     });
+
+    if (!userRes.ok) {
+      throw new Error(`Failed to fetch user: ${userRes.statusText}`);
+    }
+
     const user = await userRes.json();
 
     const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
@@ -103,6 +108,11 @@ export async function getStaticProps() {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
       },
     });
+
+    if (!repoRes.ok) {
+      throw new Error(`Failed to fetch repos: ${repoRes.statusText}`);
+    }
+
     let repos = await repoRes.json();
 
     // Ensure repos is an array
