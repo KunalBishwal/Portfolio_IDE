@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-/* =====================
-   Cover Home Styles
-   ===================== */
 .cover-home {
     display: flex;
     align-items: center;
@@ -20,9 +17,6 @@
     transform: translateY(-40%);
 }
 
-/* =====================
-   Skills Container Styles
-   ===================== */
 .skillsContainer {
     margin-top: 3rem;
     display: flex;
@@ -34,9 +28,9 @@
 
 .skillItem {
     display: flex;
-    align-items: center; /* Center align icon and text vertically */
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    flex-direction: row; /* Align items in a row */
 }
 
 .skillItem p {
@@ -46,14 +40,10 @@
 }
 
 .icon {
-    font-size: 3rem; /* Keep a consistent size */
-    margin-right: 0.5rem; /* Space between icon and text */
-    display: flex; /* Ensure the icon can center align */
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-/* =====================
-   Skill Icon Styles
-   ===================== */
 .reactIcon {
     color: #0088cc;
 }
@@ -66,6 +56,7 @@
     color: #dea584;
 }
 
+/* New skill icon styles */
 .pythonIcon {
     color: #3776AB; /* Python blue */
 }
@@ -86,9 +77,6 @@
     color: #4479A1; /* MySQL blue */
 }
 
-/* =====================
-   Button Styles
-   ===================== */
 .workBtn {
     background-color: #3b5998;
 }
@@ -97,9 +85,6 @@
     border: 2px solid #3b5998;
 }
 
-/* =====================
-   Background Text Styles
-   ===================== */
 .home-background-text {
     position: absolute;
     left: 10px;
@@ -108,7 +93,7 @@
     font-weight: 800;
     line-height: 1;
     color: var(--bg-text);
-    display: none; /* Hidden by default */
+    display: none;
 }
 
 .developer {
@@ -128,9 +113,6 @@
     margin: 0;
 }
 
-/* =====================
-   Content Styles
-   ===================== */
 .home-content {
     position: relative;
     z-index: 20;
@@ -165,9 +147,6 @@
     font-size: 1.875rem;
 }
 
-/* =====================
-   Button Styles
-   ===================== */
 .home-button {
     display: inline-block;
     margin-top: 2.5rem;
@@ -198,9 +177,6 @@
     border-color: var(--accent-color-dark);
 }
 
-/* =====================
-   Layout Styles
-   ===================== */
 .relative {
     display: flex;
     flex-direction: row;
@@ -212,12 +188,10 @@
     padding: 30px 0;
 }
 
-/* =====================
-   Media Queries
-   ===================== */
+/* Hides the element on screen widths less than 768px */
 @media screen and (max-width: 900px) {
     .myImg {
-        display: none !important;
+      display: none !important;
     }
 
     .container {
@@ -273,11 +247,11 @@
 
 @media (min-width: 768px) {
     .home-background-text {
-        display: block; /* Show on larger screens */
+        display: block;
     }
 
     .forMobile {
-        display: none; /* Hide on larger screens */
+        display: none;
     }
 
     .home-heading {
