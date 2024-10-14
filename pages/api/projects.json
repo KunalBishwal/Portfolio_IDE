@@ -1,3 +1,4 @@
+{/*
 [
   {
     "id": 1,
@@ -178,7 +179,7 @@
     "source_code": "https://broker-admin.netlify.app/download",
     "demo": "https://broker-admin.netlify.app/download"
   },
-  {/*{
+  {
     "id": 21,
     "name": "QR Scan to Clock In System",
     "image": "https://imgur.com/8FFqaX8.png",
@@ -186,5 +187,6 @@
     "tags": ["react", "firebase", "css"],
     "source_code": "https://github.com/Gozkybrain/qr-clock-in",
     "demo": "https://qr-clock-in.netlify.app/"
-  }*/}
+  }
 ]
+*/}
