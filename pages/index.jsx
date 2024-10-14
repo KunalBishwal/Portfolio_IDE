@@ -1,14 +1,11 @@
 import Link from 'next/link';
-// import Illustration from '../components/Illustration';
-import styles from '../styles/HomePage.module.css';
-import styling from '../styles/Home.module.css';
-import logo from "../public/logo.png";
 import Image from 'next/image';
-
-// FontAwesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
-import { faC, faCpp, faDatabase } from '@fortawesome/free-solid-svg-icons'; // Use appropriate icons
+import { faC, faCpp, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import styles from '../styles/HomePage.module.css';
+import styling from '../styles/Home.module.css';
+import logo from "../public/logo.png"; // Adjust this path if needed
 
 export default function HomePage() {
   return (
@@ -21,7 +18,8 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>CODExKUN</h1>
-            <h6 className={styles.bio}>Btech Student in
+            <h6 className={styles.bio}>
+              Btech Student in
               <span className={styles.react}> Data Science.</span>
             </h6>
 
@@ -70,6 +68,7 @@ export default function HomePage() {
               </div>
             </div>
 
+            {/* Buttons for Work and Resume */}
             <div className={styling.forMobile}>
               <Link href="/projects">
                 <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
@@ -79,10 +78,10 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          {/* <Illustration className={styles.illustration} /> */}
+
           {/* Logo image */}
           <div className={styling.imageWrapper}>
-            <Image src={logo} alt="Logo" className={styling.myImg} />
+            <Image src={logo} alt="CODExKUN Logo" className={styling.myImg} priority />
           </div>
         </div>
       </div>
