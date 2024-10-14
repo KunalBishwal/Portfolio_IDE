@@ -6,7 +6,7 @@ import TwitterIcon from './icons/TwitterIcon';
 import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
-//import WhatsAppIcon from './icons/WhatsappIcon';
+import WhatsAppIcon from './icons/WhatsappIcon';
 import FacebookIcon from './icons/FacebookIcon';
 //import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
@@ -17,10 +17,10 @@ const sidebarTopItems = [
     Icon: FilesIcon,
     path: '/',
   },
-  {/*{
+  {
     Icon: WhatsAppIcon,
-    path: 'https://wa.me/2348166983737',
-  }*/},
+    path: 'https://wa.me/917340886912',
+  },
   {
     Icon: TwitterIcon,
     path: 'https://x.com/KunalBishwal18',
