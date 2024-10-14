@@ -33,7 +33,7 @@ export default function HomePage() {
 
               {/* Skill item for JavaScript */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faJs} size="3x" className={`${styling.icon} ${styling.jsIcon}`} />
+                <FontAwesomeIcon icon={faJs} size="2x" className={`${styling.icon} ${styling.jsIcon}`} />
                 <div className={styling.skillText}>JavaScript</div>
               </div>
 
@@ -51,13 +51,13 @@ export default function HomePage() {
 
               {/* Skill item for C */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faC} size="3x" className={`${styling.icon} ${styling.cIcon}`} />
+                <FontAwesomeIcon icon={faC} size="4x" className={`${styling.icon} ${styling.cIcon}`} />
                 <div className={styling.skillText}>C</div>
               </div>
 
               {/* Skill item for C++ (Using faCode as a substitute) */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faCode} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
+                <FontAwesomeIcon icon={faCode} size="4x" className={`${styling.icon} ${styling.cppIcon}`} />
                 <div className={styling.skillText}>C++</div>
               </div>
 
