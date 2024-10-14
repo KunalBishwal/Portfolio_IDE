@@ -45,28 +45,37 @@ const GithubPage = ({ repos, user }) => {
           </a>
         )}
 
-        <div> <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
-          <h3 className={styles.username}>{user.login}</h3>
-          <div className={styles.userInfo}>
-            <div className={styles.user}>{user.followers} followers</div>
-            <div className={styles.user}>{user.public_repos} repos</div>
-          </div>
-        </a>
+        <div>
+          <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
+            <h3 className={styles.username}>{user.login}</h3>
+            <div className={styles.userInfo}>
+              <div
+                className={styles.user}
+                onClick={() => window.open(`https://github.com/${user.login}?tab=followers`, '_blank')}
+                style={{ cursor: 'pointer' }}
+              >
+                {user.followers} followers
+              </div>
+              <div className={styles.user}>{user.public_repos} repos</div>
+            </div>
+          </a>
 
-        <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
-       <button className={styles.button}>Open GitHub</button></a>
+          <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
+            <button className={styles.button}>Open GitHub</button>
+          </a>
         </div>
       </div>
-
 
       <div className={styles.container}>
         {repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
+
+      {/* Contribution Calendar */}
       <div className={styles.contributions}>
         <GitHubCalendar
-          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
+          username={user.login}  // Use the fetched user login instead of environment variable
           theme={theme}
           hideColorLegend
           hideMonthLabels
@@ -78,24 +87,20 @@ const GithubPage = ({ repos, user }) => {
 
 export async function getStaticProps() {
   try {
-    const userRes = await fetch(
-      `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
-      {
-        headers: {
-          Authorization: `token ${process.env.GITHUB_API_KEY}`,
-        },
-      }
-    );
+    const username = 'KunalBishwal'; // Use your GitHub username directly
+
+    const userRes = await fetch(`https://api.github.com/users/${username}`, {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+      },
+    });
     const user = await userRes.json();
 
-    const repoRes = await fetch(
-      `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
-      {
-        headers: {
-          Authorization: `token ${process.env.GITHUB_API_KEY}`,
-        },
-      }
-    );
+    const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+      },
+    });
     let repos = await repoRes.json();
 
     // Ensure repos is an array
@@ -114,7 +119,7 @@ export async function getStaticProps() {
       revalidate: 10,
     };
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error('Error fetching data:', error);
     return {
       props: { title: 'GitHub', repos: [], user: {} },
       revalidate: 10,
