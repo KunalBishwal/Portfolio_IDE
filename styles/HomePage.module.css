@@ -3,57 +3,58 @@
 /* =====================
    Global Styles
    ===================== */
+
 .container {
-    display: flex;
-    justify-content: center;
-    height: 75vh;
-    flex-direction: column;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  flex-direction: column;
+  position: relative;
 }
 
 /* =====================
    Background Styles
    ===================== */
 .background {
-    font-size: 5rem;
-    font-family: 'Montserrat';
-    line-height: 1.1;
-    color: var(--bg-text);
-    position: absolute;
-    z-index: 1;
-    transform: translateY(-20%);
+  font-size: 5rem;
+  font-family: 'Montserrat';
+  line-height: 1.1;
+  color: var(--bg-text);
+  position: absolute;
+  z-index: 1;
+  transform: translateY(-20%);
 }
 
 /* =====================
    Foreground Styles
    ===================== */
 .foreground {
-    z-index: 2;
-    display: flex;
-    color: var(--accent-color);
-    justify-content: space-between;
-    align-items: center;
+  z-index: 2;
+  display: flex;
+  color: var(--accent-color);
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* =====================
    Typography Styles
    ===================== */
 .name {
-    color: #eee;
-    font-size: 4rem;
-    font-weight: 500;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 4px 4px 6px #000;
-    margin-bottom: 0.5rem;
+  color: #eee;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 4px 4px 6px #000;
+  margin-bottom: 0.5rem;
 }
 
 .bio {
-    width: max-content;
-    color: #eee;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 3rem;
-    position: relative;
+  width: max-content;
+  color: #eee;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  position: relative;
 }
 
 /* =====================
@@ -61,96 +62,96 @@
    ===================== */
 .bio::before,
 .bio::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .bio::before {
-    background: var(--main-bg);
-    animation: typewriter 2.5s steps(24) 500ms forwards;
+  background: var(--main-bg);
+  animation: typewriter 2.5s steps(24) 500ms forwards;
 }
 
 .bio::after {
-    margin-left: 0.4rem;
-    width: 0.125em;
-    background: var(--accent-color);
-    animation: typewriter 2.5s steps(24) 500ms forwards,
-        blink 750ms steps(24) infinite;
+  margin-left: 0.4rem;
+  width: 0.125em;
+  background: var(--accent-color);
+  animation: typewriter 2.5s steps(24) 500ms forwards,
+    blink 750ms steps(24) infinite;
 }
 
 @keyframes typewriter {
-    to {
-        left: 100%;
-    }
+  to {
+    left: 100%;
+  }
 }
 
 @keyframes blink {
-    to {
-        background: transparent;
-    }
+  to {
+    background: transparent;
+  }
 }
 
 /* =====================
    Button Styles
    ===================== */
 .button {
-    background: var(--accent-color);
-    font-size: 1.25rem;
-    padding: 0.5rem 1rem;
-    margin-right: 1.5rem;
-    color: #eee;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
+  background: var(--accent-color);
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1.5rem;
+  color: #eee;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
 .outlined {
-    font-size: 1.25rem;
-    padding: 0.5rem 1rem;
-    color: #eee;
-    border: 2px solid var(--accent-color);
-    background: transparent;
-    cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  border: 2px solid var(--accent-color);
+  background: transparent;
+  cursor: pointer;
 }
 
 .button:hover,
 .outlined:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* =====================
    Illustration Styles
    ===================== */
 .illustration {
-    height: 500px;
-    width: 460px;
+  height: 500px;
+  width: 460px;
 }
 
 /* =====================
    Skill Icon Styles
    ===================== */
 .pythonIcon {
-    color: #3776AB; /* Python blue */
+  color: #3776AB; /* Python blue */
 }
 
 .javaIcon {
-    color: #007396; /* Java blue */
+  color: #007396; /* Java blue */
 }
 
 .cIcon {
-    color: #555555; /* Generic C icon color */
+  color: #555555; /* Generic C icon color */
 }
 
 .cppIcon {
-    color: #00599C; /* C++ blue */
+  color: #00599C; /* C++ blue */
 }
 
 .mysqlIcon {
-    color: #4479A1; /* MySQL blue */
+  color: #4479A1; /* MySQL blue */
 }
 
 /* =====================
@@ -159,110 +160,110 @@
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
-    .background {
-        font-size: 8.5rem;
-    }
-    .content {
-        padding: 0 3rem;
-    }
-    .name {
-        font-size: 6rem;
-    }
-    .bio {
-        font-size: 3rem;
-        margin-bottom: 5rem;
-    }
-    .button {
-        font-size: 2rem;
-    }
-    .outlined {
-        font-size: 2rem;
-    }
+  .background {
+    font-size: 8.5rem;
+  }
+  .content {
+    padding: 0 3rem;
+  }
+  .name {
+    font-size: 6rem;
+  }
+  .bio {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+  .button {
+    font-size: 2rem;
+  }
+  .outlined {
+    font-size: 2rem;
+  }
 }
 
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
-    .background {
-        display: none;
-    }
-    .container {
-        display: block;
-    }
-    .foreground {
-        margin: 4rem 0;
-        display: block;
-        text-align: center;
-    }
-    .name {
-        font-size: 4rem;
-    }
-    .bio {
-        font-size: 1.75rem;
-        margin: 0.75rem auto 3rem;
-    }
-    .illustration {
-        position: absolute;
-        bottom: -50px;
-        right: 0;
-        height: 700px;
-        width: 600px;
-    }
+  .background {
+    display: none;
+  }
+  .container {
+    display: block;
+  }
+  .foreground {
+    margin: 4rem 0;
+    display: block;
+    text-align: center;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .bio {
+    font-size: 1.75rem;
+    margin: 0.75rem auto 3rem;
+  }
+  .illustration {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    height: 700px;
+    width: 600px;
+  }
 }
 
 /* Landscape iPad */
 @media screen and (orientation: landscape) and (max-width: 1050px) {
-    .container {
-        display: flex;
-        margin: 100px 0;
-    }
-    .illustration {
-        display: none;
-    }
+  .container {
+    display: flex;
+    margin: 100px 0;
+  }
+  .illustration {
+    display: none;
+  }
 }
 
 /* Phone */
 @media screen and (max-width: 600px) {
-    .foreground {
-        margin: 0;
-    }
+  .foreground {
+    margin: 0;
+  }
 
-    .bio::after {
-        margin-left: 0.4rem;
-        width: 0.125em;
-        background: none;
-        animation: typewriter 2.5s steps(24) 500ms forwards,
-            blink 750ms steps(24) infinite;
-    }
-    .name {
-        font-size: 2rem;
-    }
-    .bio {
-        font-size: 1.25rem;
-        margin-bottom: 2rem;
-    }
-    .button {
-        font-size: 1rem;
-    }
-    .outlined {
-        font-size: 1rem;
-    }
-    .illustration {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 75vw;
-        height: 50vh;
-        z-index: 1;
-    }
+  .bio::after {
+    margin-left: 0.4rem;
+    width: 0.125em;
+    background: none;
+    animation: typewriter 2.5s steps(24) 500ms forwards,
+      blink 750ms steps(24) infinite;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .bio {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+  .outlined {
+    font-size: 1rem;
+  }
+  .illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 75vw;
+    height: 50vh;
+    z-index: 1;
+  }
 }
 
 /* Hide as long as it is not a pc view ie 900px min */
 @media screen and (max-width: 900px) {
-    .container {
-        margin-top: 100px;
-    }
+  .container {
+    margin-top: 100px;
+  }
 
-    .bio {
-        width: 100%;
-    }
+  .bio {
+    width: 100%;
+  }
 }
