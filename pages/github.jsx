@@ -49,6 +49,7 @@ const GithubPage = ({ repos, user }) => {
           <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
             <h3 className={styles.username}>{user.login}</h3>
             <div className={styles.userInfo}>
+              {/* Followers are now clickable */}
               <div
                 className={styles.user}
                 onClick={() => window.open(`https://github.com/${user.login}?tab=followers`, '_blank')}
@@ -60,6 +61,7 @@ const GithubPage = ({ repos, user }) => {
             </div>
           </a>
 
+          {/* Button to open GitHub profile */}
           <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
             <button className={styles.button}>Open GitHub</button>
           </a>
@@ -72,7 +74,7 @@ const GithubPage = ({ repos, user }) => {
         ))}
       </div>
 
-      {/* Contribution Calendar */}
+      {/* GitHub Contribution Calendar using user.login */}
       <div className={styles.contributions}>
         <GitHubCalendar
           username={user.login}  // Use the fetched user login instead of environment variable
