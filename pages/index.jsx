@@ -2,25 +2,25 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
-import { faC, faCode, faDatabase } from '@fortawesome/free-solid-svg-icons'; // Use faCode for C++
+import { faC, faCode, faDatabase } from '@fortawesome/free-solid-svg-icons'; 
 import styles from '../styles/HomePage.module.css';
 import styling from '../styles/Home.module.css';
-import logo from "../public/logo.png"; // Adjust this path if needed
+import logo from "../public/logo.png"; 
 
 export default function HomePage() {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>I BUILD</h1>
-          <h1>MAGIC!</h1>
+          <h1>I AM</h1>
+          <h1>KUNAL!</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>CODExKUN</h1>
             <h6 className={styles.bio}>
               Btech Student in
-              <span className={styles.react}> Data Science.</span>
+              <span className={styles.react}>DataScience</span>
             </h6>
 
             {/* Skill Icons Section */}
@@ -79,7 +79,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Logo image */}
+          {}
           <div className={styling.imageWrapper}>
             <Image src={logo} alt="CODExKUN Logo" className={styling.myImg} priority />
           </div>
