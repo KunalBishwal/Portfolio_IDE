@@ -19,7 +19,7 @@ const sidebarTopItems = [
   },
   {
     Icon: WhatsAppIcon,
-    path: 'https://wa.me/917340886912',
+    path: '',
   },
   {
     Icon: TwitterIcon,
