@@ -6,18 +6,18 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Sarcastic Geek is an amazing developer that like to make complex stuff as easy as possible."
+        content="Kunal Bishwal is a BTech student and learning new things."
       />
       <meta
         name="keywords"
-        content="Sarcastic Geek, Gozkybrain, Gee Brain, Software developer with react, Bukas Global Investments, Sarcastic Geeks Academy, mern stack, Gozie Brain Izuka, vscode-portfolio"
+        content="Kunal Bishwal,CODExKUN,vscode-portfolio"
       />
-      <meta property="og:title" content="Sarcastic Geek's Portfolio" />
+      <meta property="og:title" content="Kunal's Portfolio" />
       <meta
         property="og:description"
-        content="A normal life is Boring."
+        content="DO WHATEVER YOUR MIND AND HEART BOTH SAYS"
       />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:url" content="" />
     </Head>
   );
 };
@@ -25,5 +25,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Sarcastic Geek',
+  title: 'Kunal Bishwal',
 };
