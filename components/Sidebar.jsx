@@ -31,7 +31,7 @@ const sidebarTopItems = [
   },
   {
     Icon: FacebookIcon,
-    path: 'https://facebook.com/izuka.emmanuel',
+    path: '',
   },
   {
     Icon: LinkedInIcon,
