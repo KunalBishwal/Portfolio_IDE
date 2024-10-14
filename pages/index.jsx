@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
-import { faC, faCpp, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faC, faCode, faDatabase } from '@fortawesome/free-solid-svg-icons'; // Use faCode for C++
 import styles from '../styles/HomePage.module.css';
 import styling from '../styles/Home.module.css';
 import logo from "../public/logo.png"; // Adjust this path if needed
@@ -55,9 +55,9 @@ export default function HomePage() {
                 <div className={styling.skillText}>C</div>
               </div>
 
-              {/* Skill item for C++ */}
+              {/* Skill item for C++ (Using faCode as a substitute) */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faCpp} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
+                <FontAwesomeIcon icon={faCode} size="3x" className={`${styling.icon} ${styling.cppIcon}`} />
                 <div className={styling.skillText}>C++</div>
               </div>
 
