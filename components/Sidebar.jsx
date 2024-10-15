@@ -8,7 +8,7 @@ import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
 import WhatsAppIcon from './icons/WhatsappIcon';
 import FacebookIcon from './icons/FacebookIcon';
-//import TikTokIcon from './icons/TiktokIcon';
+import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
 
