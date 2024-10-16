@@ -76,7 +76,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>React</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '25%' }}></div>
+                <div className={styles.progress} style={{ width: '20%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -110,21 +110,21 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>MongoDB, ExpressJS & NodeJS</span>
+              <span className={styles.skillName}>MongoDB,NodeJS</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '15%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Firebase, EmailJS </span>
+              <span className={styles.skillName}>Firebase,EmailJS </span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '15%' }}></div>
+                <div className={styles.progress} style={{ width: '10%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Git & GitHub</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: '80%' }}></div>
               </div>
             </div>
           </div>
