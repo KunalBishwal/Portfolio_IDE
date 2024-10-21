@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Virtual Art Gallery",
     "image": "https://imgur.com/kbGs6zH.png",
-    "description": "Online Desktop based application for emerging artists to showcase there Artworks",
+    "description": "Desktop based application for emerging artists to showcase there Artworks",
     "tags": ["java"],
     "source_code": "https://github.com/KunalBishwal/Virtual_Art_Gallery"
   },
@@ -32,5 +32,23 @@
     "tags": ["html", "css", "javascript"],
     "source_code": "https://github.com/KunalBishwal/Flip_Card",
     "demo": "https://flip-card-codexkun.netlify.app"
+  },
+  {
+    "id": 5,
+    "name": "Glassmorphic Calculator/Converter",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "A BASIC CALCULATOR AND CURRENCY CONVERTER WITH A GLASS BODY TRANSLUCENT TYPE DESIGN",
+    "tags": ["html", "css"],
+    "source_code": "https://github.com/KunalBishwal/glass_calculator",
+    "demo": "https://glass-calculator-nu.vercel.app"
+  },
+   {
+    "id": 6,
+    "name": "Universal SideBar",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This responsive menu with toggle and sidebar is a great solution for any project that needs a responsive navigation menu. It is easy to set up and customize, and provides a seamless experience for users on all devices.",
+    "tags": ["html", "css","javascript"],
+    "source_code": "https://github.com/KunalBishwal/Predefined_MENU",
+    "demo": ""
   }
 ]
