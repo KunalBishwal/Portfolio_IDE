@@ -34,7 +34,7 @@ const GithubPage = ({ repos, user }) => {
     <>
       <div className={styles.gitHead}>
         {user.avatar_url && (
-          <a href={`https://github.com/${KunalBishwal.login}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer">
             <Image
               src={user.avatar_url}
               className={styles.avatar}
@@ -45,15 +45,15 @@ const GithubPage = ({ repos, user }) => {
           </a>
         )}
 
-        <div> <a href={`https://github.com/${KunalBishwal.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
-          <h3 className={styles.username}>{KunalBishwal.login}</h3>
+        <div> <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
+          <h3 className={styles.username}>{user.login}</h3>
           <div className={styles.userInfo}>
-            <div className={styles.user}>{KunalBishwal.followers} followers</div>
-            <div className={styles.user}>{KunalBishwal.public_repos} repos</div>
+            <div className={styles.user}>{user.followers} followers</div>
+            <div className={styles.user}>{user.public_repos} repos</div>
           </div>
         </a>
 
-        <a href={`https://github.com/${KunalBishwal.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
+        <a href={`https://github.com/${user.login}`} target="_blank" rel="noopener noreferrer" className={styles.links}>
        <button className={styles.button}>Open GitHub</button></a>
         </div>
       </div>
