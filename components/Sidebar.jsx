@@ -61,27 +61,33 @@ const sidebarBottomItems = [
 const Sidebar = () => {
   const router = useRouter();
 
+  const isExternal = (path) => path.startsWith('http') || path.startsWith('mailto');
+
   return (
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
         {sidebarTopItems.map(({ Icon, path }, index) => (
           <div key={index} className={styles.iconContainer}>
-            <Link href={path} passHref>
-              <div
-                className={
-                  router.pathname === path ? styles.active : undefined
-                }
-              >
-                <Icon
-                  fill={
-                    router.pathname === path
-                      ? 'rgb(225, 228, 232)'
-                      : 'rgb(106, 115, 125)'
-                  }
-                  className={styles.icon}
-                />
-              </div>
-            </Link>
+            {isExternal(path) ? (
+              <a href={path} target="_blank" rel="noopener noreferrer">
+                <div>
+                  <Icon fill={'rgb(106, 115, 125)'} className={styles.icon} />
+                </div>
+              </a>
+            ) : (
+              <Link href={path} passHref>
+                <div className={router.pathname === path ? styles.active : undefined}>
+                  <Icon
+                    fill={
+                      router.pathname === path
+                        ? 'rgb(225, 228, 232)'
+                        : 'rgb(106, 115, 125)'
+                    }
+                    className={styles.icon}
+                  />
+                </div>
+              </Link>
+            )}
           </div>
         ))}
       </div>
@@ -89,11 +95,7 @@ const Sidebar = () => {
         {sidebarBottomItems.map(({ Icon, path }, index) => (
           <div key={index} className={styles.iconContainer}>
             <Link href={path} passHref>
-              <div
-                className={
-                  router.pathname === path ? styles.active : undefined
-                }
-              >
+              <div className={router.pathname === path ? styles.active : undefined}>
                 <Icon
                   fill={
                     router.pathname === path
