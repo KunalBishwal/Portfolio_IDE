@@ -34,16 +34,16 @@ const sidebarTopItems = [
     path: 'https://www.linkedin.com/in/kunal-bishwal-6a450525b',
   },
   {
+    Icon: MailIcon,
+    path: 'mailto:kunalbishwal2004@gmail.com',
+  },
+   {
     Icon: FacebookIcon,
     path: '',
   },
   {
     Icon: TikTokIcon,
     path: '',
-  },
-  {
-    Icon: MailIcon,
-    path: 'mailto:kunalbishwal2004@gmail.com',
   },
 ];
 
