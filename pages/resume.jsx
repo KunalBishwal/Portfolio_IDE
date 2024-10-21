@@ -9,6 +9,11 @@ const ContactPage = () => {
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>BTech Student</h4>
           <div>SRM UNIVERSITY</div>
+          <p>These is the list of my CGPA I got till now including 1st and 2nd sem</p>
+          <ul>
+            <li>8.8</li>
+            <li>9.8</li>
+          </ul>
           <div>2023 - Present</div>
         </div>
 
