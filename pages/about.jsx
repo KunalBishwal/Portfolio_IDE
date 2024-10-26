@@ -122,7 +122,7 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Git & GitHub</span>
+              <span className={styles.skillName}>GitHub</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '80%' }}></div>
               </div>
