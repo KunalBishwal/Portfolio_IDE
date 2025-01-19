@@ -46,7 +46,7 @@
     "id": 6,
     "name": "iTODO-TASK MANAGER",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "",
+    "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
     "tags": ["Tailwind css","React JS","JavaScript"],
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
