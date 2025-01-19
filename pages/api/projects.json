@@ -25,7 +25,7 @@
     "demo": "http://payment-web-delta.vercel.app"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Flip Card Game",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "Flip Card Game is a memory-style game that challenges players to match pairs of cards with a fun and interactive user interface. The game is built using HTML, CSS, and JavaScript and is suitable for both desktop and mobile devices.",
@@ -34,7 +34,7 @@
     "demo": "https://flipcardkun.netlify.app"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Glassmorphic Calculator/Converter",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "A BASIC CALCULATOR AND CURRENCY CONVERTER WITH A GLASS BODY TRANSLUCENT TYPE DESIGN",
@@ -44,11 +44,11 @@
   },
    {
     "id": 6,
-    "name": "Universal SideBar",
+    "name": "iTODO-TASK MANAGER",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "This responsive menu with toggle and sidebar is a great solution for any project that needs a responsive navigation menu. It is easy to set up and customize, and provides a seamless experience for users on all devices.",
-    "tags": ["html", "css","javascript"],
-    "source_code": "https://github.com/KunalBishwal/Predefined_MENU",
-    "demo": ""
+    "description": "",
+    "tags": ["Tailwind css","React JS","JavaScript"],
+    "source_code": "https://github.com/KunalBishwal/iTask_todo",
+    "demo": "https://itask-todo-k.netlify.app/"
   }
 ]
