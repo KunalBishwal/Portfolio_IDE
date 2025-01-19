@@ -70,17 +70,17 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>JavaScript</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '75%' }}></div>
+                <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>React</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '20%' }}></div>
+                <div className={styles.progress} style={{ width: '70%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>CSS & Bootstrap</span>
+              <span className={styles.skillName}>CSS,Tailwind,Bootstrap</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '90%' }}></div>
               </div>
@@ -88,7 +88,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>HTML</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '90%' }}></div>
+                <div className={styles.progress} style={{ width: '95%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -100,7 +100,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>C & C++</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '90%' }}></div>
+                <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -112,7 +112,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>MongoDB,NodeJS</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '15%' }}></div>
+                <div className={styles.progress} style={{ width: '65%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
