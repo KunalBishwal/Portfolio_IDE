@@ -4,7 +4,7 @@
     "name": "Virtual Art Gallery",
     "image": "https://imgur.com/kbGs6zH.png",
     "description": "Desktop based application for emerging artists to showcase there Artworks",
-    "tags": ["java"],
+    "tags": ["Java"],
     "source_code": "https://github.com/KunalBishwal/Virtual_Art_Gallery"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Travel and Tourism",
     "image": "https://imgur.com/tAZotn3.png",
     "description": "A desktop based application for hotel booking",
-    "tags": ["java"],
+    "tags": ["Java"],
     "source_code": "https://github.com/KunalBishwal/TRAVEL_BOOKING_APP"
   },
   {
@@ -24,6 +24,15 @@
     "source_code": "https://github.com/KunalBishwal/Payment_WEB",
     "demo": "http://payment-web-delta.vercel.app"
   },
+    {
+    "id": 4,
+    "name": "Glassmorphic Calculator/Converter",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "A BASIC CALCULATOR AND CURRENCY CONVERTER WITH A GLASS BODY TRANSLUCENT TYPE DESIGN",
+    "tags": ["html", "css"],
+    "source_code": "https://github.com/KunalBishwal/glass_calculator",
+    "demo": "https://glass-calculator-nu.vercel.app"
+  },
   {
     "id": 5,
     "name": "Flip Card Game",
@@ -33,21 +42,13 @@
     "source_code": "https://github.com/KunalBishwal/Flip_Card",
     "demo": "https://flipcardkun.netlify.app"
   },
-  {
-    "id": 4,
-    "name": "Glassmorphic Calculator/Converter",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A BASIC CALCULATOR AND CURRENCY CONVERTER WITH A GLASS BODY TRANSLUCENT TYPE DESIGN",
-    "tags": ["html", "css"],
-    "source_code": "https://github.com/KunalBishwal/glass_calculator",
-    "demo": "https://glass-calculator-nu.vercel.app"
-  },
+
    {
     "id": 6,
     "name": "iTODO-TASK MANAGER",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
-    "tags": ["Tailwind css","React JS","JavaScript"],
+    "tags": ["Tailwind css","react","javascript"],
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
   }
