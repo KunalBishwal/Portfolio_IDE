@@ -18,6 +18,14 @@ const ContactPage = () => {
           <div>2023 - Present</div>
         </div>
 
+        
+        
+         <div className={styles.item}>
+          <h4 className={styles.resumeHead}>WEB DEVELOPMENT(MERN Stack)</h4>
+          <div>Learning from Youtube</div>
+          <div>2024 - Present</div>
+        </div>
+
          <div className={styles.item}>
           <h4 className={styles.resumeHead}>NPTEL CERTIFICATION</h4>
           <div>Java Course</div>
@@ -31,12 +39,6 @@ const ContactPage = () => {
             View Certificate PDF
           </a>
          </div>
-        
-         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>WEB DEVELOPMENT(MERN Stack)</h4>
-          <div>Learning from Youtube</div>
-          <div>2024 - Present</div>
-        </div>
         
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>PYTHON, JAVA, C, C++</h4>
