@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-:root {
-    --primary-color: #0088cc;
-    --secondary-color: #3b5998;
-    --accent-color: #3b5998;
-    --accent-color-dark: #2d4373;
-    --text-color: #ffffff;
-    --bg-text: rgba(255,255,255,0.1);
-    --transition-speed: 0.3s;
-    --border-radius: 12px;
-}
-
 .cover-home {
     display: flex;
     align-items: center;
@@ -33,9 +22,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
     color: white;
-    perspective: 1000px;
 }
 
 .skillItem {
@@ -43,59 +31,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    transition: all var(--transition-speed) ease-in-out;
-    transform-style: preserve-3d;
-    border-radius: var(--border-radius);
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    width: 150px;
-    position: relative;
-    overflow: hidden;
-}
-
-.skillItem::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        120deg, 
-        transparent, 
-        rgba(255,255,255,0.1), 
-        transparent
-    );
-    transition: all var(--transition-speed) ease-in-out;
-}
-
-.skillItem:hover::before {
-    left: 100%;
-}
-
-.skillItem:hover {
-    transform: 
-        scale(1.1) 
-        rotateX(10deg) 
-        rotateY(-10deg);
-    box-shadow: 
-        0 15px 30px rgba(0,0,0,0.3), 
-        0 10px 20px rgba(0,0,0,0.2);
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-    transition: all var(--transition-speed) ease-in-out;
-    backface-visibility: hidden;
-}
-
-.skillItem:hover .icon {
-    transform: 
-        scale(1.2) 
-        rotate(360deg);
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,0.3));
 }
 
 .skillItem p {
@@ -109,29 +44,38 @@
     margin-bottom: 0.5rem;
 }
 
-.skillText {
-    margin-top: 0.5rem;
-    font-size: 12px;
-    font-weight: bold;
-    transition: all var(--transition-speed) ease-in-out;
-    opacity: 0.8;
+.reactIcon {
+    color: #0088cc;
 }
 
-.skillItem:hover .skillText {
-    transform: scale(1.1);
-    color: var(--primary-color);
-    opacity: 1;
+.jsIcon {
+    color: #f7e018;
 }
 
-/* Specific Icon Colors */
-.reactIcon { color: #0088cc; }
-.jsIcon { color: #f7e018; }
-.rustIcon { color: #dea584; }
-.pythonIcon { color: #3776AB; }
-.javaIcon { color: #007396; }
-.cIcon { color: #555555; }
-.cppIcon { color: #00599C; }
-.mysqlIcon { color: #4479A1; }
+.rustIcon {
+    color: #dea584;
+}
+
+/* New skill icon styles */
+.pythonIcon {
+    color: #3776AB; /* Python blue */
+}
+
+.javaIcon {
+    color: #007396; /* Java blue */
+}
+
+.cIcon {
+    color: #555555; /* Generic C icon color */
+}
+
+.cppIcon {
+    color: #00599C; /* C++ blue */
+}
+
+.mysqlIcon {
+    color: #4479A1; /* MySQL blue */
+}
 
 .workBtn {
     background-color: #3b5998;
@@ -244,7 +188,7 @@
     padding: 30px 0;
 }
 
-/* Responsive Adjustments */
+/* Hides the element on screen widths less than 768px */
 @media screen and (max-width: 900px) {
     .myImg {
       display: none !important;
@@ -255,6 +199,7 @@
     }
 }
 
+/* Mobile styles */
 @media (max-width: 768px) {
     .relative {
         flex-direction: column;
@@ -298,10 +243,6 @@
     .react {
         font-size: 17px;
     }
-
-    .skillItem {
-        width: 100px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -330,10 +271,6 @@
         padding: 0.75rem 1.75rem;
         font-size: 1.125rem;
     }
-
-    .skillItem {
-        width: 150px;
-    }
 }
 
 @media (min-width: 1280px) {
@@ -353,17 +290,5 @@
     .home-button-secondary {
         padding: 0.75rem 2rem;
         font-size: 1.25rem;
-    }
-
-    .skillItem {
-        width: 180px;
-    }
-
-    .icon {
-        font-size: 4rem;
-    }
-
-    .skillText {
-        font-size: 14px;
     }
 }
