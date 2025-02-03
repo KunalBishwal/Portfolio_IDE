@@ -33,7 +33,7 @@ export default function AboutMe() {
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
                     <strong className={styles.strong}>Nationality:</strong> 
-                    <span>Indian IND</span>
+                    <span>Indian</span>
                   </li>
                   <li className={styles.listItem}>
                     <i className={`${styles.icon} bi bi-chevron-right`}></i> 
