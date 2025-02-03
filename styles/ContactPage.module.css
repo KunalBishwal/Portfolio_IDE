@@ -61,7 +61,23 @@
     bottom: auto;
     height: 1rem;
   }
-  
+  .certificateLink {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #f0f4f8;
+  color: #2563eb;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.certificateLink:hover {
+  background-color: #dbeafe;
+  text-decoration: underline;
+}
+
   @media screen and (max-width: 1200px) {
     .container {
       flex-direction: column;
