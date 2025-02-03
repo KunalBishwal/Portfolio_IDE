@@ -7,8 +7,8 @@ import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
 import WhatsAppIcon from './icons/WhatsappIcon';
-import FacebookIcon from './icons/FacebookIcon';
-import TikTokIcon from './icons/TiktokIcon';
+// import FacebookIcon from './icons/FacebookIcon';
+// import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
 
@@ -37,14 +37,14 @@ const sidebarTopItems = [
     Icon: MailIcon,
     path: 'mailto:kunalbishwal2004@gmail.com',
   },
-   {
-    Icon: FacebookIcon,
-    path: '',
-  },
-  {
-    Icon: TikTokIcon,
-    path: '',
-  },
+   // {
+  //   Icon: FacebookIcon,
+  //   path: '',
+  // },
+  // {
+  //   Icon: TikTokIcon,
+  //   path: '',
+  // },
 ];
 
 const sidebarBottomItems = [
