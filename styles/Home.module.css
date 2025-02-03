@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .cover-home {
     display: flex;
@@ -19,71 +22,170 @@
 
 .skillsContainer {
     margin-top: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+  padding: 1rem;
 }
 
 .skillItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transform: translateY(0);
+  padding: 1rem;
+  border-radius: 8px;
 }
 
-.skillItem p {
-    margin-top: 0.5rem;
-    font-size: 12px;
-    font-weight: bold;
+.skillItem:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.skillItem:hover .icon {
+  transform: scale(1.15);
+  filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
+}
+
+.skillItem:hover .skillText {
+  transform: scale(1.05);
+  opacity: 1;
+  color: var(--primary-color);
 }
 
 .icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.reactIcon {
-    color: #0088cc;
+.skillText {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: all 0.3s ease;
 }
 
-.jsIcon {
-    color: #f7e018;
-}
+/* Icon color transitions */
+.reactIcon { color: #61dafb; }
+.reactIcon:hover { color: #21a1f1; }
 
-.rustIcon {
-    color: #dea584;
-}
+.jsIcon { color: #f7df1e; }
+.jsIcon:hover { color: #f0db4f; }
 
-/* New skill icon styles */
-.pythonIcon {
-    color: #3776AB; /* Python blue */
-}
+.pythonIcon { color: #3776AB; }
+.pythonIcon:hover { color: #FFD43B; }
 
-.javaIcon {
-    color: #007396; /* Java blue */
-}
+.javaIcon { color: #007396; }
+.javaIcon:hover { color: #5382a1; }
 
-.cIcon {
-    color: #555555; /* Generic C icon color */
-}
+.cIcon { color: #004482; }
+.cIcon:hover { color: #00599C; }
 
-.cppIcon {
-    color: #00599C; /* C++ blue */
-}
+.cppIcon { color: #00599C; }
+.cppIcon:hover { color: #004482; }
 
-.mysqlIcon {
-    color: #4479A1; /* MySQL blue */
-}
+.mysqlIcon { color: #4479A1; }
+.mysqlIcon:hover { color: #00758f; }
 
+
+/* Button effects */
 .workBtn {
-    background-color: #3b5998;
+  background-color: #3b5998;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.workBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(59, 89, 152, 0.4);
 }
 
 .contactBtn {
-    border: 2px solid #3b5998;
+  border: 2px solid #3b5998;
+  transition: all 0.3s ease;
 }
+.contactBtn:hover {
+  transform: scale(1.05);
+  border-color: #8b9dc3;
+  box-shadow: 0 4px 15px rgba(59, 89, 152, 0.4);
+}
+
+/* Image effects */
+.myImg {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.myImg:hover {
+  transform: rotate(3deg) scale(1.05);
+  filter: drop-shadow(0 10px 20px rgba(0, 136, 204, 0.3));
+}
+
+/* Background text animation */
+.home-background-text h1 {
+  transition: text-shadow 0.5s ease;
+}
+
+.home-background-text:hover h1 {
+  text-shadow: 4px 4px 20px rgba(0, 136, 204, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skillItem {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+  }
+  
+  .skillItem:hover .icon {
+    transform: scale(1.1);
+  }
+  
+  .skillText {
+    font-size: 0.8rem;
+  }
+  
+  .home-heading {
+    font-size: 2.5rem !important;
+  }
+  
+  .myImg {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillsContainer {
+    gap: 3rem;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+  
+  .skillText {
+    font-size: 1rem;
+  }
+}
+
+/* Existing structural styles */
+.offset {
+  transform: translateY(-20%);
+}
+
+.offset-bg {
+  transform: translateY(-40%);
+}
+
 
 .home-background-text {
     position: absolute;
