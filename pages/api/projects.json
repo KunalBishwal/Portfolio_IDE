@@ -43,8 +43,17 @@
     "demo": "https://flipcardkun.netlify.app"
   },
 
+  {
+  "id": 6,
+  "name": "LANtern Messenger",
+  "image": "https://imgur.com/8FFqaX8.png",
+  "description": "LANtern Messenger is a peer-to-peer messaging application that enables direct, serverless communication over local networks. Built with React, Vite, PeerJS, and Tailwind CSS, it supports real-time text messaging, file sharing, and robust reconnection logic.",
+  "tags": ["react", "p2p", "webrtc", "tailwindcss", "vite"],
+  "source_code": "https://github.com/KunalBishwal/LANtern_Messenger",
+  "demo": "https://lantern-messenger.netlify.app/"
+},
    {
-    "id": 6,
+    "id": 7,
     "name": "iTODO-TASK MANAGER",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
