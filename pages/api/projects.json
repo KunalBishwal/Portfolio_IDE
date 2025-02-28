@@ -2,33 +2,33 @@
   {
     "id": 1,
     "name": "Virtual Art Gallery",
-    "image": "https://source.unsplash.com/featured/?art",
-    "description": "Desktop based application for emerging artists to showcase their artworks.",
+    "image": "https://imgur.com/kbGs6zH.png",
+    "description": "Desktop based application for emerging artists to showcase there Artworks",
     "tags": ["Java"],
     "source_code": "https://github.com/KunalBishwal/Virtual_Art_Gallery"
   },
   {
     "id": 2,
     "name": "Travel and Tourism",
-    "image": "https://source.unsplash.com/featured/?travel",
-    "description": "A desktop based application for hotel booking.",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "A desktop based application for hotel booking",
     "tags": ["Java"],
     "source_code": "https://github.com/KunalBishwal/TRAVEL_BOOKING_APP"
   },
   {
     "id": 3,
     "name": "Payment Gateway",
-    "image": "https://source.unsplash.com/featured/?payment",
-    "description": "A payment gateway system with animations using a credit card interface.",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "A payment gateway system with animations by using credit card",
     "tags": ["html", "css", "javascript"],
     "source_code": "https://github.com/KunalBishwal/Payment_WEB",
     "demo": "http://payment-web-delta.vercel.app"
   },
-  {
+    {
     "id": 4,
     "name": "Glassmorphic Calculator/Converter",
-    "image": "https://source.unsplash.com/featured/?calculator",
-    "description": "A basic calculator and currency converter with a glassmorphic translucent design.",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "A BASIC CALCULATOR AND CURRENCY CONVERTER WITH A GLASS BODY TRANSLUCENT TYPE DESIGN",
     "tags": ["html", "css"],
     "source_code": "https://github.com/KunalBishwal/glass_calculator",
     "demo": "https://glass-calculator-nu.vercel.app"
@@ -36,27 +36,28 @@
   {
     "id": 5,
     "name": "Flip Card Game",
-    "image": "https://source.unsplash.com/featured/?game",
-    "description": "A memory-style flip card game with a fun, interactive user interface built using HTML, CSS, and JavaScript.",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Flip Card Game is a memory-style game that challenges players to match pairs of cards with a fun and interactive user interface. The game is built using HTML, CSS, and JavaScript and is suitable for both desktop and mobile devices.",
     "tags": ["html", "css", "javascript"],
     "source_code": "https://github.com/KunalBishwal/Flip_Card",
     "demo": "https://flipcardkun.netlify.app"
   },
+
   {
-    "id": 6,
-    "name": "LANtern Messenger",
-    "image": "https://source.unsplash.com/featured/?messaging",
-    "description": "A peer-to-peer messaging application enabling direct, serverless communication over local networks. Built with React, Vite, PeerJS, and Tailwind CSS, it supports real-time messaging, file sharing, and robust reconnection logic.",
-    "tags": ["react", "p2p", "webrtc", "tailwindcss", "vite"],
-    "source_code": "https://github.com/KunalBishwal/LANtern_Messenger",
-    "demo": "https://lantern-messenger.netlify.app/"
-  },
-  {
+  "id": 6,
+  "name": "LANtern Messenger",
+  "image": "https://imgur.com/8FFqaX8.png",
+  "description": "LANtern Messenger is a peer-to-peer messaging application that enables direct, serverless communication over local networks. Built with React, Vite, PeerJS, and Tailwind CSS, it supports real-time text messaging, file sharing, and robust reconnection logic.",
+  "tags": ["react", "p2p", "webrtc", "tailwindcss", "vite"],
+  "source_code": "https://github.com/KunalBishwal/LANtern_Messenger",
+  "demo": "https://lantern-messenger.netlify.app/"
+},
+   {
     "id": 7,
     "name": "iTODO-TASK MANAGER",
-    "image": "https://source.unsplash.com/featured/?todo",
-    "description": "A simple yet powerful todo list application built with React to help you manage your tasks and boost productivity.",
-    "tags": ["Tailwind css", "react", "javascript"],
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
+    "tags": ["Tailwind css","react","javascript"],
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
   }
