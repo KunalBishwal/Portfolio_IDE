@@ -78,6 +78,14 @@
   text-decoration: underline;
 }
 
+.resumeButtons {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  display: flex;
+  gap: 10px;
+}
+
   @media screen and (max-width: 1200px) {
     .container {
       flex-direction: column;
