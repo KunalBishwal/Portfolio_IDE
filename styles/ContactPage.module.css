@@ -61,14 +61,24 @@
     bottom: auto;
     height: 1rem;
   }
-  .certificateLink {
-  display: inline-block;
-  margin-top: 8px;
-  padding: 6px 12px;
+.resumeButtons {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 8px; /* Reduce spacing */
+}
+
+.certificateLink {
+  display: block;
+  width: 140px; /* Reduce width */
+  padding: 8px; /* Adjust padding */
   background-color: #f0f4f8;
   color: #2563eb;
-  border-radius: 4px;
-  text-decoration: none;
+  border-radius: 6px; /* Rounded corners */
+  text-align: center;
+  font-size: 14px; /* Reduce font size */
   font-weight: 500;
   transition: all 0.2s ease;
 }
@@ -78,13 +88,6 @@
   text-decoration: underline;
 }
 
-.resumeButtons {
-  position: absolute;
-  top: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
-  display: flex;
-  gap: 10px;
-}
 
   @media screen and (max-width: 1200px) {
     .container {
