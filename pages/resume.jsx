@@ -5,22 +5,22 @@ const ContactPage = () => {
     <div className={styles.container}>
       {/* Resume Buttons Positioned in the Top Right Corner */}
       <div className={styles.resumeButtons}>
-        <a
-          href="https://drive.google.com/file/d/1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR/view"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.certificateLink}
-        >
-          View Resume
-        </a>
-        <a
-          href="https://drive.google.com/uc?export=download&id=1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR"
-          download
-          className={styles.certificateLink}
-        >
-          Download Resume
-        </a>
-      </div>
+  <a
+    href="https://drive.google.com/file/d/1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR/view"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.certificateLink}
+  >
+    View Resume
+  </a>
+  <a
+    href="https://drive.google.com/uc?export=download&id=1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR"
+    download
+    className={styles.certificateLink}
+  >
+    Download Resume
+  </a>
+</div>
 
       <div className={styles['education-section']}>
         <h3 className={styles.heading}>Education History</h3>
