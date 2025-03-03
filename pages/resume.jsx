@@ -42,15 +42,15 @@ const ContactPage = () => {
             <button className={styles.closeButton} onClick={closeResume}>
               Close
             </button>
-            {/* Embed your resume here using an iframe */}
+           
             <iframe
-              src="/path/to/your/resume.pdf"  // Replace with the actual path or URL to your resume PDF
+              src="https://drive.google.com/file/d/1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR/view"  
               title="Resume"
               width="100%"
               height="500px"
               style={{ border: 'none' }}
             ></iframe>
-            <a href="/path/to/your/resume.pdf" download>
+            <a href="https://drive.google.com/file/d/1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR/view" download>
               <button className={styles.downloadButton}>Download Resume</button>
             </a>
           </div>
