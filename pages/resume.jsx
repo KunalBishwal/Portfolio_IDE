@@ -6,7 +6,7 @@ const ContactPage = () => {
       {/* Resume Buttons Positioned in the Top Right Corner */}
       <div className={styles.resumeButtons}>
   <a
-    href="https://drive.google.com/file/d/1sj8xptBN9mwNbHcF1G7ghLvTEQ6PdeaR/view"
+    href="https://drive.google.com/file/d/1fwRwdzogul0vxBxSMiTacTvuPxuFGloi/view?usp=drive_link"
     target="_blank"
     rel="noopener noreferrer"
     className={styles.certificateLink}
