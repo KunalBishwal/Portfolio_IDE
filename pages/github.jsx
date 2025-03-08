@@ -38,7 +38,7 @@ const GithubPage = ({ repos, user }) => {
             <Image
               src={user.avatar_url}
               className={styles.avatar}
-              alt={KunalBishwal.login}
+              alt={user.login}
               width={120}
               height={120}
             />
