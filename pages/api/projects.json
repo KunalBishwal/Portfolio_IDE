@@ -60,7 +60,7 @@
     "tags": ["Tailwind css","react","javascript"],
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
-  }
+  },
   {
     "id": 8,
     "name": "Planista-Pro",
@@ -69,7 +69,7 @@
     "tags": ["tailwind css","react","typescript","Next.js"],
     "source_code": "https://github.com/KunalBishwal/Planista-Pro",
     "demo": ""
-  }
+  },
   {
     "id": 9,
     "name": "PennyFlow",
