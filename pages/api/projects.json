@@ -61,4 +61,22 @@
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
   }
+  {
+    "id": 8,
+    "name": "Planista-Pro",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Welcome to Planista-Pro, an event planning website where you can book venues for your personalized events with a beautiful UI",
+    "tags": ["tailwind css","react","typescript","Next.js"],
+    "source_code": "",
+    "demo": ""
+  }
+  {
+    "id": 9,
+    "name": "PennyFlow",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
+    "tags": ["Tailwind css","react","typescript","Next.js"],
+    "source_code": "",
+    "demo": ""
+  }
 ]
