@@ -77,6 +77,6 @@
     "description": "Track your expenses, set budgets, and get real-time insights with AI-powered analytics. PennyFlow makes managing money effortless with features like bill uploads, smart alerts, dynamic analytics, and seamless integration with your lifestyle. Take control of your finances—one penny at a time.",
     "tags": ["Tailwind css","react","typescript","Next.js"],
     "source_code": "https://github.com/KunalBishwal/Penny_Flow",
-    "demo": ""
+    "demo": "https://penny-flow.vercel.app"
   }
 ]
