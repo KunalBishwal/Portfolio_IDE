@@ -39,6 +39,20 @@ const ContactPage = () => {
           <div>2023 - Present</div>
         </div>
 
+         <div className={styles.item}>
+          <h4 className={styles.resumeHead}>ORACLE AI CERTIFICATION</h4>
+          <div>AI Course</div>
+          <div>2025</div>
+          <a
+            href="https://www.dropbox.com/scl/fi/ylskq9yid800e4ruprm8k/Oracle-eCertificate.pdf?rlkey=o1jjcjo2wi1bbgeihucymaxzs&e=1&st=8ccqk4yi&dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.certificateLink}
+          >
+            View Certificate PDF
+          </a>
+        </div>
+
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>WEB DEVELOPMENT(MERN Stack)</h4>
           <div>Learning from Youtube</div>
@@ -88,4 +102,5 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
 
