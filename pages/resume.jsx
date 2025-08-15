@@ -28,11 +28,13 @@ const ContactPage = () => {
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>BTech Student</h4>
           <div>SRM University</div>
-          <p>This is the list of my CGPA I got till now (In every semester)</p>
+          <p>My current cgpa is <b>9.6</b></p>
+          <p>This is the list of my SGPA I got till now (In every semester)</p>
           <ul type='circle'>
-            <li>8.8 cgpa in 1st sem</li>
-            <li>9.8 cgpa in 2nd sem</li>
-            <li>10.0 cgpa in 3rd sem</li>
+            <li>8.8 sgpa in 1st sem</li>
+            <li>9.8 sgpa in 2nd sem</li>
+            <li>10.0 sgpa in 3rd sem</li>
+            <li>9.85 sgpa in 4th sem</li>
           </ul>
           <div>2023 - Present</div>
         </div>
@@ -86,3 +88,4 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
