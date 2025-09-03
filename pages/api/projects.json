@@ -87,5 +87,15 @@
     "tags": ["Tailwind css","react","typescript","Next.js"],
     "source_code": "https://github.com/KunalBishwal/Penny_Flow",
     "demo": "https://penny-flow.vercel.app"
+  },
+    {
+    "id": 11,
+    "name": "C.L.A.R.A – Conversational Learning AI for Recruitment Assistance",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "C.L.A.R.A (Conversational Learning AI for Recruitment Assistance) is an AI-powered mock interview assistant that helps students and job seekers practice job interviews in a realistic environment.",
+    "tags": ["Tailwind css","react","typescript","Next.js","VAPI AI"],
+    "source_code": "https://github.com/KunalBishwal/C.L.A.R.A",
+    "demo": "https://clara-ai-interviewer.vercel.app/"
   }
 ]
+
