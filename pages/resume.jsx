@@ -39,33 +39,51 @@ const ContactPage = () => {
           <div>2023 - Present</div>
         </div>
 
-        <div className={styles.item}>
-          <h4 className={styles.resumeHead}>ORACLE NETWORKING CERTIFICATION</h4>
-          <div>Networking Course</div>
-          <div>2025</div>
-          <a
-            href="https://www.dropbox.com/scl/fi/88qz3utfm7oxdxnow93lw/Orcale_Networking_eCertificate.pdf?rlkey=l65tsc2db3su41h4mjexsk5wz&st=438wqq36&dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.certificateLink}
-          >
-            View Certificate PDF
-          </a>
-        </div>
+       <div className={styles.item}>
+  <h4 className={styles.resumeHead}>ORACLE NETWORKING CERTIFICATION</h4>
+  <div>Networking Course</div>
+  <div>2025</div>
+  <a
+    href="https://www.dropbox.com/scl/fi/88qz3utfm7oxdxnow93lw/Orcale_Networking_eCertificate.pdf?rlkey=l65tsc2db3su41h4mjexsk5wz&st=438wqq36&dl=0"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.certificateLink}
+  >
+    View Certificate PDF
+  </a>
+  <br />
+  <a
+    href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=090F35AC1F92CBC709064014478E2BA468DE6B1CF2D97104DA6EB1C43FB9696D"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.certificateLink}
+  >
+    View Certification Badge
+  </a>
+</div>
 
-         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>ORACLE AI CERTIFICATION</h4>
-          <div>AI Course</div>
-          <div>2025</div>
-          <a
-            href="https://www.dropbox.com/scl/fi/ylskq9yid800e4ruprm8k/Oracle-eCertificate.pdf?rlkey=o1jjcjo2wi1bbgeihucymaxzs&e=1&st=8ccqk4yi&dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.certificateLink}
-          >
-            View Certificate PDF
-          </a>
-        </div>
+<div className={styles.item}>
+  <h4 className={styles.resumeHead}>ORACLE AI CERTIFICATION</h4>
+  <div>AI Course</div>
+  <div>2025</div>
+  <a
+    href="https://www.dropbox.com/scl/fi/ylskq9yid800e4ruprm8k/Oracle-eCertificate.pdf?rlkey=o1jjcjo2wi1bbgeihucymaxzs&e=1&st=8ccqk4yi&dl=0"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.certificateLink}
+  >
+    View Certificate PDF
+  </a>
+  <br />
+  <a
+    href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=E9E8605BD8EA48311F33A19D74477589A6DA44E2B3DB9E7D5B740C07FF6ADE13"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.certificateLink}
+  >
+    View Certification Badge
+  </a>
+</div>
 
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>WEB DEVELOPMENT(MERN Stack)</h4>
@@ -116,6 +134,7 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
 
 
 
