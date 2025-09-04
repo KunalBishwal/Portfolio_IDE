@@ -61,8 +61,17 @@
     "source_code": "https://github.com/KunalBishwal/iTask_todo",
     "demo": "https://itask-todo-k.netlify.app/"
   },
-  {
+   {
     "id": 8,
+    "name": "ID-Forge",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Welcome to ID-Forge,Your own ID Card generator and manager",
+    "tags": ["tailwind css","react","typescript","Next.js"],
+    "source_code": "https://github.com/KunalBishwal/Planista-Pro",
+    "demo": "https://id-card-manager.vercel.app"
+  },
+  {
+    "id": 9,
     "name": "Planista-Pro",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "Welcome to Planista-Pro, an event planning website where you can book venues for your personalized events with a beautiful UI",
@@ -71,12 +80,22 @@
     "demo": ""
   },
   {
-    "id": 9,
-    "name": "PennyFlow",
+    "id": 10,
+    "name": "PennyFlow – Your Smart Personal Finance Companion",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "Welcome to iTask, a simple yet powerful todo list application built with React. Keep track of your tasks, set priorities, and manage your productivity in an intuitive and user-friendly interface.",
+    "description": "Track your expenses, set budgets, and get real-time insights with AI-powered analytics. PennyFlow makes managing money effortless with features like bill uploads, smart alerts, dynamic analytics, and seamless integration with your lifestyle. Take control of your finances—one penny at a time.",
     "tags": ["Tailwind css","react","typescript","Next.js"],
     "source_code": "https://github.com/KunalBishwal/Penny_Flow",
-    "demo": ""
+    "demo": "https://penny-flow.vercel.app"
+  },
+    {
+    "id": 11,
+    "name": "C.L.A.R.A – Conversational Learning AI for Recruitment Assistance",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "C.L.A.R.A (Conversational Learning AI for Recruitment Assistance) is an AI-powered mock interview assistant that helps students and job seekers practice job interviews in a realistic environment.",
+    "tags": ["Tailwind css","react","typescript","Next.js","VAPI AI"],
+    "source_code": "https://github.com/KunalBishwal/C.L.A.R.A",
+    "demo": "https://clara-ai-interviewer.vercel.app/"
   }
 ]
+

@@ -31,7 +31,7 @@ const sidebarTopItems = [
   },
   {
     Icon: LinkedInIcon,
-    path: 'https://www.linkedin.com/in/kunal-bishwal-6a450525b',
+    path: 'https://www.linkedin.com/in/kunalbishwal/',
   },
   {
     Icon: MailIcon,

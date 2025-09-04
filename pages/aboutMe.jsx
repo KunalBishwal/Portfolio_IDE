@@ -77,3 +77,5 @@ export async function getStaticProps() {
     props: { title: 'AboutMe' },
   };
 }
+
+
