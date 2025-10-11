@@ -96,6 +96,16 @@
     "tags": ["Tailwind css","react","typescript","Next.js","VAPI AI"],
     "source_code": "https://github.com/KunalBishwal/C.L.A.R.A",
     "demo": "https://clara-ai-interviewer.vercel.app/"
+  },
+  {
+    "id": 12,
+    "name": "ChickTech — AI-Powered Chicken Disease Diagnosis",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "ChickTech is an AI-powered chicken disease diagnosis platform that leverages deep learning to identify poultry diseases such as Coccidiosis from uploaded images.",
+    "tags": ["Tailwind css","react","typescript","Next.js","Machine Learning"],
+    "source_code": "https://github.com/KunalBishwal/ChickTech-AI-Diagnosis",
+    "demo": ""
   }
 ]
+
 
