@@ -38,8 +38,22 @@ const ContactPage = () => {
           </ul>
           <div>2023 - Present</div>
         </div>
-
-       <div className={styles.item}>
+        
+  <div className={styles.item}>
+          <h4 className={styles.resumeHead}>NPTEL CERTIFICATION</h4>
+          <div>Machine Learning Course</div>
+          <div>2025</div>
+          <a
+            href="https://www.dropbox.com/scl/fi/nms6ogfvjxwpxd7bl0xib/NPTEL_ML_CERTIFICATE.pdf?rlkey=2o7kvhehankgeax48vrkbtqhk&st=j9778ppu&dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.certificateLink}
+          >
+            View Certificate PDF
+          </a>
+        </div>
+        
+  <div className={styles.item}>
   <h4 className={styles.resumeHead}>ORACLE NETWORKING CERTIFICATION</h4>
   <div>Networking Course</div>
   <div>2025</div>
@@ -134,6 +148,7 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
 
 
 
