@@ -83,7 +83,7 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>React</span>
+              <span className={styles.skillName}>React, Next.js</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '90%' }}></div>
               </div>
@@ -155,6 +155,7 @@ export async function getStaticProps() {
     props: { title: 'About' },
   };
 }
+
 
 
 
