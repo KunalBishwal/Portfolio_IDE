@@ -36,6 +36,17 @@ const ContactPage = () => {
             <li>10.0 sgpa in 3rd sem</li>
             <li>9.85 sgpa in 4th sem</li>
           </ul>
+        {/* --- Achievement Section Added --- */}
+        <div className={styles.achievementSection}>
+          <p>
+            <b>Achievements:</b>
+             <ul type='circle'>
+               First Prize in Physics project workshop
+               Received Performance-based scholarship for excellence in college studies in 2nd year.
+              </ul>
+          </p>
+        </div>
+        {/* --------------------------------- */}
           <div>2023 - Present</div>
         </div>
         
@@ -148,6 +159,7 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
 
 
 
