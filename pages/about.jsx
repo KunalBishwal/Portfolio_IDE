@@ -53,7 +53,7 @@ export default function AboutMe() {
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>Availability: </strong>
-                  Learning Stage</span>
+                  Available for Jobs and Internships</span>
               </li>
             </ul>
           </div>
@@ -73,13 +73,19 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>JavaScript</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
+              </div>
+            </div>
+            <div className={styles.skill}>
+              <span className={styles.skillName}>TypeScript</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>React</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '70%' }}></div>
+                <div className={styles.progress} style={{ width: '90%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -101,34 +107,40 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>C & C++</span>
+              <span className={styles.skillName}>AI/ML</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: '70%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Python</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '75%' }}></div>
+                <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>MongoDB,NodeJS</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '65%' }}></div>
+                <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Firebase,EmailJS </span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '10%' }}></div>
+                <div className={styles.progress} style={{ width: '80%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>GitHub</span>
+              <span className={styles.skillName}>Git&GitHub</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '80%' }}></div>
               </div>
+               <div className={styles.skill}>
+              <span className={styles.skillName}>AWS,Vercel,Render</span>
+              <div className={styles.progressBar}>
+                <div className={styles.progress} style={{ width: '80%' }}></div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -143,6 +155,7 @@ export async function getStaticProps() {
     props: { title: 'About' },
   };
 }
+
 
 
 
