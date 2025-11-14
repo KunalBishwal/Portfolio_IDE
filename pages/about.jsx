@@ -60,7 +60,8 @@ export default function AboutMe() {
         </div>
 
         <div className={styles.paragraph}>
-          I am a student at SRM University, pursuing a Btech degree in CSE Data Science (2nd Year) and also learning DSA and Web Dev as personal skills.
+          I am a student at SRM University, pursuing a Btech degree in CSE Data Science (3rd Year)
+          I hold strong interest in AI/ML with Full Stack Development
         </div>
 
         {/* Skills Section */}
@@ -140,6 +141,7 @@ export async function getStaticProps() {
     props: { title: 'About' },
   };
 }
+
 
 
 
