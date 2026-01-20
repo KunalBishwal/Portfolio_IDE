@@ -104,8 +104,9 @@
     "description": "ChickTech is an AI-powered chicken disease diagnosis platform that leverages deep learning to identify poultry diseases such as Coccidiosis from uploaded images.",
     "tags": ["Tailwind css","react","typescript","Next.js","Machine Learning"],
     "source_code": "https://github.com/KunalBishwal/ChickTech-AI-Diagnosis",
-    "demo": ""
+    "demo": "https://chick-tech-ai-diagnosis.vercel.app/"
   }
 ]
+
 
 
