@@ -6,7 +6,7 @@ const ContactPage = () => {
       {/* Resume Buttons Positioned in the Top Right Corner */}
       <div className={styles.resumeButtons}>
   <a
-    href="https://www.dropbox.com/scl/fi/t091klom8frubqdtqih26/Kunal-Bishwal-Resume.pdf?rlkey=b9bc4kd0zaa0fl4s1otox9kzw&st=1dfs4cfd&dl=0"
+    href="https://www.dropbox.com/scl/fi/t091klom8frubqdtqih26/Kunal-Bishwal-Resume.pdf?rlkey=b9bc4kd0zaa0fl4s1otox9kzw&st=42v61p34&dl=0"
     target="_blank"
     rel="noopener noreferrer"
     className={styles.certificateLink}
@@ -14,7 +14,7 @@ const ContactPage = () => {
     View Resume
   </a>
   <a
-    href="https://www.dropbox.com/scl/fi/t091klom8frubqdtqih26/Kunal-Bishwal-Resume.pdf?rlkey=b9bc4kd0zaa0fl4s1otox9kzw&st=1dfs4cfd&dl=0"
+    href="https://www.dropbox.com/scl/fi/t091klom8frubqdtqih26/Kunal-Bishwal-Resume.pdf?rlkey=b9bc4kd0zaa0fl4s1otox9kzw&st=42v61p34&dl=0"
     download
     className={styles.certificateLink}
   >
@@ -157,6 +157,7 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
 
 
 
