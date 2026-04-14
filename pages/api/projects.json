@@ -105,6 +105,15 @@
     "tags": ["Tailwind css","react","typescript","Next.js","Machine Learning"],
     "source_code": "https://github.com/KunalBishwal/ChickTech-AI-Diagnosis",
     "demo": "https://chick-tech-ai-diagnosis.vercel.app/"
+  },
+   {
+    "id": 13,
+    "name": "Ascend-Career",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "A Career path generator for students and job seekers, our AI will help you with your resume and also a job portal",
+    "tags": ["Tailwind css","react","typescript","Next.js","Machine Learning"],
+    "source_code": "https://github.com/KunalBishwal/Ascend-Career",
+    "demo": "https://ascend-career.vercel.app/"
   }
 ]
 
