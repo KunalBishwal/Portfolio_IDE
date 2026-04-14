@@ -35,7 +35,7 @@ const ContactPage = () => {
             <li>9.8 sgpa in 2nd sem</li>
             <li>10.0 sgpa in 3rd sem</li>
             <li>9.85 sgpa in 4th sem</li>
-            <li>9.75 sgpa in 5th sem</li
+            <li>9.75 sgpa in 5th sem</li>
           </ul>
            {/* --- Achievement Section Added --- */}
           <div className={styles.achievementSection}>

@@ -140,16 +140,24 @@ export async function getStaticProps() {
 
     const json = await res.json();
 
+    if (!json.data || !json.data.user) {
+      console.error("No user data found in GitHub API response:", json.errors || "Unknown error");
+      return {
+        props: { title: 'GitHub', repos: [], user: {} },
+        revalidate: 10,
+      };
+    }
+
     const userData = json.data.user;
 
     return {
       props: {
-        repos: userData.pinnedItems.nodes,
+        repos: userData.pinnedItems?.nodes || [],
         user: {
-          avatar_url: userData.avatarUrl,
-          login: userData.login,
-          followers: userData.followers.totalCount,
-          public_repos: userData.repositories.totalCount,
+          avatar_url: userData.avatarUrl || "",
+          login: userData.login || "",
+          followers: userData.followers?.totalCount || 0,
+          public_repos: userData.repositories?.totalCount || 0,
         },
       },
       revalidate: 10,
