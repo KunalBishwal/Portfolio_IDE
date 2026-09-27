@@ -28,7 +28,7 @@ const ContactPage = () => {
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>BTech Student</h4>
           <div>SRM University</div>
-          <p>My current cgpa is <b>9.62</b></p>
+          <p>My current cgpa is <b>9.65</b></p>
           <p>This is the list of my SGPA I got till now (In every semester)</p>
           <ul type='circle'>
             <li>8.8 sgpa in 1st sem</li>
@@ -36,6 +36,7 @@ const ContactPage = () => {
             <li>10.0 sgpa in 3rd sem</li>
             <li>9.85 sgpa in 4th sem</li>
             <li>9.75 sgpa in 5th sem</li>
+            <li>9.85 sgpa in 6th sem</li>
           </ul>
            {/* --- Achievement Section Added --- */}
           <div className={styles.achievementSection}>
